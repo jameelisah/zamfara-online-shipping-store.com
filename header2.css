@@ -1,0 +1,63 @@
+<style>
+* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  margin-left: 20px;
+}
+
+.navigation a {
+  color: darkblue;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.navigation a:hover {
+  color: pink;
+}
+
+.user-actions {
+  display: flex;
+  color: green;
+}
+
+.user-actions a {
+  margin-left: 30px;
+  color: darkblue;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.user-actions a:hover {
+  color: #ddd;
+}
+</style>
