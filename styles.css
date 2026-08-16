@@ -1,0 +1,90 @@
+<style>
+body {
+
+}
+font-family {
+
+}
+product-div {
+  border-color: black;
+  float: left;
+  width: 300px;
+  margin: 15px;
+  text-align: center;
+  background-color: lightgray;
+  display: inline-block;
+}
+.menu-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+product-image {
+  width: 10px;
+  height: 10px;
+}
+label {
+  font-family: cursive;
+  text-align: center;
+}
+p {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bolder;
+}
+select {
+  display: inline-flex;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: black;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 8px;
+  padding-left: 8px;
+  font-family: cursive;
+  font-size: 16px;
+  background-color: lightgray;
+}
+select:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+select:active {
+  cursor: pointer;
+  border-color: gray;
+  color: white;
+  background-color: black;
+}
+option {
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+}
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  background-color: yellow;
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  font-weight: 400px;
+}
+button:hover {
+  opacity: 0.5;
+}
+button:active {
+background: #111;
+color: white;
+opacity: 0.9;
+}
+</style>
